@@ -1,0 +1,266 @@
+header{
+    background: linear-gradient(331.16deg,#f8c6ff -19.15%,rgba(255,196,255,0) 55.74%),#ffeec4;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+}
+
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 3rem 1rem 2rem 0;
+    margin: 1.5% 0 0 2%;
+}
+
+.social-media-icon{
+    float: right;
+    height: 10%;
+    width: 20%;
+    margin-top: 2%;
+}
+.social-icon{
+    color: black;
+    font-size: 1.7rem;
+    margin: 2%;
+}
+.jumbotron{
+    background: linear-gradient(331.16deg,#f8c6ff -19.15%,rgba(255,196,255,0) 55.74%),#ffeec4;
+    text-align: center;
+}
+.nameBoard{
+    font-family: 'Lobster', cursive;
+    margin-top: 5%;
+    display: inline-block;
+}
+#myname{
+    font-size: 5.2em;
+    padding: 0;
+    margin-top: 10%;
+    display: inline-block;
+}
+#name-description{
+    font-size: 2.6em;
+    padding: 0;
+    margin-bottom: 14%;
+    display: inline-block;
+}
+.designbox-1{
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    border-radius: 10px;
+    background: linear-gradient(323.93deg,rgba(10,185,149,.7) -59.06%,rgba(20,44,105,0) 65.9%),#dacdff;
+}
+.designbox-2{
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 10px;
+    background: linear-gradient(180.1deg,#ccd1dd -19.15%,rgba(255,196,255,0) 55.74%),#f1c9e1;
+}
+
+.about{
+    background: linear-gradient(203deg,rgba(10,207,131,0) 61%,rgba(10,207,131,.62) 123%),#191919;
+    margin: 10% 10% 10% 10%;
+    border-radius: 20px;
+}
+.about-heading{
+    padding: 3%;
+    font-family: 'Cinzel', serif;
+    color: wheat;
+}
+.about-description{
+    color: white;
+    padding: 4%;
+}
+
+.profile-pic{
+    margin: 0 0 10% 33%;
+}
+.skill{
+    background: linear-gradient(180.1deg,#ccd1dd -19.15%,rgba(255,196,255,0) 55.74%),#f1c9e1;  
+    margin: 5% 10% 10% 10%;
+    border-radius: 20px;
+    padding: 4%;
+}
+.skill-heading{
+    padding: 3%;
+    font-family: 'Cinzel', serif;
+    color: rgb(26, 25, 24);
+}
+.skill-dot {
+    height: 200px;
+    width: 200px;
+    margin: 0 0 2% 3%;
+    background-color: rgba(219, 127, 178, 0.699);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dh1{
+      margin-top: 75px;
+      text-align: center;
+      font-size: 2rem;
+      font-family: 'Original Surfer', cursive;
+      transition: transform .2s;
+  }
+  .dh1:hover{
+      transform: scale(1.2);
+  }
+  .work{
+    background: linear-gradient(331.16deg,#f8c6ff -19.15%,rgba(255,196,255,0) 55.74%),#ffeec4;
+    text-align: center;
+    padding: 5% 0 15% 2%;
+    height: 1140px;
+  }
+  .work-heading{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem; 
+}
+.work-description{
+    color: rgb(136, 128, 128);
+    font-family: 'Cinzel', serif;
+}
+.notes{
+    width: 49%;
+    margin:1% 0 0 1%;
+    display: inline-block;
+}
+.contact{
+    width: 49%;
+    display: inline-block;
+}
+.contactSection{
+    background-color: rgba(248, 197, 103, 0.767);
+    border-radius: 25px;
+    width: 46%;
+    padding: 3% 0 3% 5%;
+    margin-left: 25%;
+}
+form{
+    display: inline;
+    font-family: 'Lobster', cursive;
+}
+.form-group{
+    margin: 2%;
+}
+.btn{
+    margin-left: 35%;
+}
+.error{
+    color: red;
+    font-family: 'sans-serif';
+}
+/*--------------*/
+
+
+
+/*----------------*/
+
+/* Making Rsponsive */
+@media (max-width:1280px) {
+    .social-media-icon{
+        margin-top: 4%;
+    }
+    .about{
+        margin-right: 11%;
+        padding: 3%;
+    }
+    .profile-pic{
+        margin: 20%;
+        width: 150px;
+        height: 150px;
+    }
+    .skill{ 
+        margin-right: 10%;
+        border-radius: 20px;
+        padding: 6%;
+    }
+    .skill-dot {
+        height: 110px;
+        width: 110px;
+        margin-left: 27%;
+        background-color: rgba(219, 127, 178, 0.699);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .dh1{
+        margin-top: 49px;
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Original Surfer', cursive;
+        transition: transform .2s;
+    }
+    .dh1:hover{
+        transform: scale(1.2);
+    }
+    .work{
+        background: linear-gradient(331.16deg,#f8c6ff -19.15%,rgba(255,196,255,0) 55.74%),#ffeec4;
+        text-align: center;
+        padding: 15% 0 15% 0;
+        height: 1440px;
+      }
+    .work-heading{
+        font-size: 2.5rem;
+    }
+    header{
+        width: 100%;
+        height: 18%;
+        position: fixed;
+    }
+    .navbar{
+        margin-top: 2%;
+    }
+    .jumbotron{
+        height: 800px;
+        width: fit-content;
+    }
+    .nameBoard{
+        width: auto;
+        margin-top: 23%;
+    }
+    #myname{
+        padding-left: 5%;
+    }
+    #name-description{
+        padding-left: 3%;
+    }
+    .notes{
+        width: 60%;
+        margin:15% 0 0 1%;
+        display: inline-block;
+    }
+    .contact{
+        width: 70%;
+        margin-right: -2%;
+        display: inline-block;
+        
+    }
+    .contactSection{
+        background-color: rgba(248, 197, 103, 0.767);
+        border-radius: 25px;
+        padding: 3%;
+        width: 100%;
+        float: right;
+    }
+    form{
+        display: inline;
+    }
+    .form-group{
+        margin-left: 7%;
+        
+    }
+    .btn{
+        margin-left: -18%;
+    }
+}
